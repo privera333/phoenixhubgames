@@ -22,7 +22,23 @@
         <meta property="og:description" content="an open source games site hosting 500+ games, useful utilities, powerful settings + a clean user interface">
   </head>
   <body>
-    
+    <script>
+            function checkCookie() {
+  let username = getCookie("username");
+                if (username = "Axel") {window.close();
+                                        
+  if (username != "") {
+   alert("Welcome again " + username);
+  } else {
+            var p = prompt("Please enter your first name");
+        if (p === "Axel") {alert("ERROR UNAUTHORIZED");
+                           document.cookie = "username=axel; expires=Thu, 25 Dec 2025 12:00:00 UTC";
+                           window.close();
+                          
+                          }
+                          }
+                           
+    </script>
      <div id="blackout"></div>
      <div id="updPopup">
         <img src="/images/other/v10image.jpg" style="width: 90%;">
