@@ -1,7 +1,7 @@
 <script>
+ var  currentpassword = "paddydaygaming";
  var chaturl = "/chatrtrstytfttyftytfyghjigytwwscbnuy3457876yyghbvbnhhgtrsdsz-dfgh.html";
  var cookies = document.cookie;
- var cname = "custompassword";
  function getCookie(cname) {
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -17,7 +17,7 @@
   }
   return "";
 }
- var c = getCookie("custompassord");
- if (c === "") {document.cookie = "custompassword=paddydaygaming; expires=Sat, 18 Dec 2027 12:00:00 UTC; path=/chat.html";} else {
+ var c = getCookie("custompassword");
+ if (c === null) {document.cookie = "custompassword="+currentpassword+"; expires=Sat, 18 Dec 2027 12:00:00 UTC; path=/chat.html";} else {
  var checker = getCookie("custompassword");
  var p = prompt("please enter password"); if (p != checker) {alert("unauthorized user"); setInterval(() => {open();}, Infinity);} else {alert("Welcome Back!"); open("/chatrtrstytfttyftytfyghjigytwwscbnuy3457876yyghbvbnhhgtrsdsz-dfgh.html/","_self");}}</script>
