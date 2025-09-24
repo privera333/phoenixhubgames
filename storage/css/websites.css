@@ -241,6 +241,12 @@ a {
     }
 }
 
+.title {
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 72px;
+}
 
 .paragraph {
   text-align: center;
